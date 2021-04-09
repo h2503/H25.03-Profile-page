@@ -436,12 +436,12 @@ color: #194260;
 @media screen and (min-width: 0px) and (max-width: 1000px) {*/
   
   #navi{
-  	padding:0;
+  	padding:5px 10px;
   }
 
 
   .staticText, #profile{
-  	font-size: 22px;
+  	font-size: 17px;
   	display:flex;
   	text-align: center	
 	}
