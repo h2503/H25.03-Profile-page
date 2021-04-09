@@ -251,11 +251,12 @@ a:hover{
 }
 
 .card .content h2 {
-  font-size: 1.5em;
+  font-size: 3em;
 }
 
 .card .content p {
   margin-top: 10px;
+  font-size:1.5em;
 }
 
 .card .content a {
@@ -263,6 +264,7 @@ a:hover{
   margin-top: 15px;
   color: #fff;
   text-decoration: none;
+  font-size: 1em;
   padding: 10px;
   border: 1px solid #fff;
 }
@@ -293,18 +295,21 @@ a:hover{
 
 #about h1{
 	font-weight: bold;
+	font-size: 6.5em;
+	margin-top: -20px;
 }
 
 #about p{	
+	font-size: 1.5em;
 }
 
 #skill li{
 	list-style: none;
 	color:#64493D;
-	/*display:block;
+	display:block;
 	margin-left:auto;
 	margin-right:auto;
-	text-align: center;*/
+	text-align: center;
 }
 
 
@@ -430,18 +435,13 @@ color: #194260;
 
 @media (max-width: 1030px) {
   
-/*}
-
-
-@media screen and (min-width: 0px) and (max-width: 1000px) {*/
-  
   #navi{
   	padding:5px 10px;
   }
 
 
   .staticText, #profile{
-  	font-size: 17px;
+  	font-size: 30px;
   	display:flex;
   	text-align: center	
 	}
@@ -467,7 +467,7 @@ color: #194260;
    }
 
    .jumbotron img{
-	width:80%;
+	width:100%;
 	margin:auto;
 	}
 
@@ -570,6 +570,11 @@ color: #194260;
   }
   
 }
+
+
+
+@media (max-width: 800px) {
+
 
 
 
