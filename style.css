@@ -51,7 +51,7 @@ body{
 /*white space*/
 .space {
 	height:180px;
-	width: 50%;
+	width: 100%
 	background-color:#e6dac7;
 }
 .space span{
@@ -60,6 +60,15 @@ body{
 	font-weight: bold;
 	opacity: 0.3; 
 	margin:120px 50px;
+}
+
+.bgDecor{
+	position: absolute;
+	z-index:-1;
+	transform: rotate(45deg);
+	left:-20;
+	width:400px;
+	opacity: .3;
 }
 
 
@@ -488,6 +497,10 @@ color: #194260;
 	opacity: 0.5; 
 	margin:0;
 	}
+
+  .bgDecor{
+  	display:none;
+  }
 
   .card {
     flex-direction: column;
