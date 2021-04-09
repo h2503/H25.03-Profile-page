@@ -124,7 +124,7 @@ body{
 .scrollicon{
 	position:absolute;
 	left:80%;
-	border-bottom:solid 3px #0A2C47;
+	border-top:solid 3px #0A2C47;
 	border-left:solid 3px #0A2C47;
 	width: 250px;
 	height:30px;
@@ -132,6 +132,7 @@ body{
 	color:#0A2C47;
 	font-size: 25px;
 	margin-top: 20px;
+
 }
 
 a:hover{
