@@ -11,14 +11,9 @@ function change() {
     });
 }*/
 
-$(document).ready(function(){
-	var typed = new Typed(".typing", {
-	        strings: ["Developer.", "Photographer.", "Builder.", "Gamer.", "Freelancer."],
-	        typeSpeed: 100,
-	        backSpeed: 60,
-	        loop: true
-	    });
-});
+
+
+
 
 $(document).ready(function() {
     $(window).scroll(function() {
@@ -39,9 +34,17 @@ $(document).ready(function() {
             $(".navbar-toggler").css("color","#0A2C47");
         }
     });
+
+
+    var typed = new Typed(".typing", {
+        strings: ["Developer", "Builder", "Photographer", "Freelancer", "Entrepreneur"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+
+
 });
 
 
 
-/*
-screen.width > 900 && */
