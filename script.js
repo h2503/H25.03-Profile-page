@@ -55,7 +55,7 @@ $(document).ready(function() {
       }
     });
 
-  $(".contact").magnificPopup({
+  $(".checkResume").magnificPopup({
       delegate: 'a',
       type: 'image',
       gallery:{
@@ -63,7 +63,6 @@ $(document).ready(function() {
       }
     });
   
-
 
 
 
@@ -79,7 +78,6 @@ function filterSelection(c) {
     if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
   }
 }
-
 // Show filtered elements
 function w3AddClass(element, name) {
   var i, arr1, arr2;
@@ -91,7 +89,6 @@ function w3AddClass(element, name) {
     }
   }
 }
-
 // Hide elements that are not selected
 function w3RemoveClass(element, name) {
   var i, arr1, arr2;
@@ -104,7 +101,6 @@ function w3RemoveClass(element, name) {
   }
   element.className = arr1.join(" ");
 }
-
 // Add active class to the current button (highlight it)
 var btnContainer = document.getElementById("myBtnContainer");
 var btns = btnContainer.getElementsByClassName("btn");
