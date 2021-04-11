@@ -25,6 +25,7 @@ $(document).ready(function() {
                 $(".navbar-brand").css("display","none");
                 $(".nav-link").css("color","#E6DAC7");
                 $(".navbar-toggler").css("color","#E6DAC7");
+                
             }
         } else {
             $("#navi").css("background-color", "#E6DAC7");
@@ -32,6 +33,7 @@ $(document).ready(function() {
             $(".navbar-brand").css("display","flex");
             $(".nav-link").css("color","#0A2C47");
             $(".navbar-toggler").css("color","#0A2C47");
+            
         }
     });
 
@@ -44,7 +46,14 @@ $(document).ready(function() {
     });
 
 
+
+
 });
+
+
+  $(".rotate").click(function(){
+      $(this).toggleClass("down")  ; 
+  })
 
 
   $(".gallery").magnificPopup({
